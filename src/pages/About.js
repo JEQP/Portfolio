@@ -1,26 +1,26 @@
 import React from "react";
-import Profile1 from '../images/Profile1.jpg';
-// import Header from "../components/Header";
+import Header from "../components/Header";
+import "./style.css";
 
 function About() {
 
     return (
-        <div class="container px-xs-0 px-md-0">
-            {/* <Header /> */}
-            <div class="container px-xs-0 px-md-2" id="mainblock">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2 class="px-2">About Me</h2>
+        <div className="container px-xs-0 px-md-0">
+            <Header />
+            <div className="container px-xs-0 px-md-2" id="mainblock">
+                <div className="row">
+                    <div className="col-md-12">
+                        <h2 className="px-2">About Me</h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-4">
+                <div className="row">
+                    <div className="col-sm-4">
 
-                        <img class="img-fluid" src={Profile1} alt="Handsome, Bearded Man"></img>
+                        <img className="img-fluid" src="/Profile1.jpg" alt="Handsome, Bearded Man"></img>
 
                     </div>
 
-                    <div class="col-sm-8 bioBlock">
+                    <div className="col-sm-8 bioBlock">
 
 
                         <p>

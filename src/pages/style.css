@@ -1,0 +1,13 @@
+body {
+    background-image: URL("/background.jpg");
+  
+  }
+
+  .contactForm {
+      text-align: center;
+      padding-top: 50px;
+  }
+
+  .row {
+      justify-content: center;
+  }
