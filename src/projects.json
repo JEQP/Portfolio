@@ -8,48 +8,48 @@
         "rLink": "https://github.com/JEQP/portfolio"
     },
     {
-        "urlSquare": "/mixeruppersquare.jpg",
-        "urlCard": "/mixerupper350x200.jpg",
+        "urlSquare": "../images/mixeruppersquare.jpg",
+        "urlCard": "../images/mixerupper350x200.jpg",
         "title": "Mixer Upper",
         "description": "A dynamic webpage allowing users to search for cocktails and receive an image, ingredients list and instructions. Constructed in a team with Takuji Okubo and Tonnette Stanford. It uses Materialize, jQuery, and the Montserrat font from Google Fonts. The details for the cocktails are drawn from The Cocktail Database. My main responsibilities were to construct the API calls and link them via Javascript with the HTML elements.",
         "dLink": "https://jeqp.github.io/mixer-upper/index.html",
         "rLink": "https://github.com/JEQP/mixer-upper"
     },
     {
-        "urlSquare": "/employeedirectorysquare.jpg",
-        "urlCard": "/employeedirectory350x200.jpg",
+        "urlSquare": "../images/employeedirectorysquare.jpg",
+        "urlCard": "../images/employeedirectory350x200.jpg",
         "title": "Employee Directory",
         "description": "This React-based app demonstrates an employee directory that can be searched and sorted. The directory is filled via an API call to Random User Generator and includes photo, title, name, gender, age, e-mail and mobile phone number. Entering text into the search box will dynamically search all fields and filter those who match the entered text. The directory can be sorted by name or by age, as indicated by the change in cursor.",
         "dLink": "https://jeqp.github.io/employee-directory/",
         "rLink": "https://github.com/JEQP/react-employee-directory"
     },
     {
-        "urlSquare": "/weathereyesquare.jpg",
-        "urlCard": "/weathereye350x200.jpg",
+        "urlSquare": "../images/weathereyesquare.jpg",
+        "urlCard": "../images/weathereye350x200.jpg",
         "title": "The Weather Eye",
         "description": "A weather app that detects the users location and displays local weather, browser permitting. The user can search for cities, with the searches saved in a list, and delete items from the list. Current weather displays location, date, temperature, humidity, windspeed, and UV Index, with the last one colour-coded for severity. The weather forecast is shown as an icon, and a five day forecast appears below. <br> The app uses jQuery and Bootstrap, and obtains the weather from the Open Weather Map API.",
         "dLink": "https://jeqp.github.io/the-weather-eye/",
         "rLink": "https://github.com/JEQP/the-weather-eye"
     },
     {
-        "urlSquare": "/opmsquare.jpg",
-        "urlCard": "/opm350x200.jpg",
+        "urlSquare": "../images/opmsquare.jpg",
+        "urlCard": "../images/opm350x200.jpg",
         "title": "One Page Man",
         "description": "A full stack application that lets users easily create a customised website. They can choose a theme, upload four images and create three sub-sections with title and text. The iamges are saved on third-party site Cloudinary, and the information is stored in a MySQL database. Layout uses Materialize, and the site uses Sequelize, Express, Handlebars and jQuery.",
         "dLink": "https://thawing-inlet-42364.herokuapp.com/",
         "rLink": "https://github.com/SiJBC/project2"
     },
     {
-        "urlSquare": "/workoutsquare.jpg",
-        "urlCard": "/workout350x200.jpg",
+        "urlSquare": "../images/workoutsquare.jpg",
+        "urlCard": "../images/workout350x200.jpg",
         "title": "Workout Tracker",
         "description": "A web app for people to track their workouts. Data is stored in a Mongo database using a Mongoose schema, and the API and HTML routes are handled using Express.",
         "dLink": "http://agile-thicket-87690.herokuapp.com/",
         "rLink": "https://github.com/JEQP/workout-tracker"
     },
     {
-        "urlSquare": "/employeetrackersquare.jpg",
-        "urlCard": "/employeetracker350x200.jpg",
+        "urlSquare": "../images/employeetrackersquare.jpg",
+        "urlCard": "../images/employeetracker350x200.jpg",
         "title": "Employee Tracker CMS",
         "description": "This is a command line interface to allow users to interact with an employee database to view, create and update files. In the initial screen users choose to add, view, update a file, or leave the system. Uses Node.js and MySQL.",
         "dLink": "https://github.com/JEQP/Employee_Tracker",

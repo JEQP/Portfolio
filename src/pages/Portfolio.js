@@ -1,4 +1,4 @@
-import React, { useState, setState } from 'react';
+import React, { useState } from 'react';
 import Header from "../components/Header";
 import projects from "../projects.json";
 import Project from "../components/Project";
@@ -79,11 +79,11 @@ function Portfolio() {
                             <h2>{featuredProject.title}</h2>
                         </div>
                         <div id="dLink">
-                            <a href={featuredProject.dLink} target="_blank" className="fpLink">Deployed
+                            <a href={featuredProject.dLink} target="_blank" rel="noopener noreferrer" className="fpLink">Deployed
                         Link</a>
                         </div>
                         <div id="ghRepo">
-                            <a href={featuredProject.rLink} target="_blank" className="fpLink">GitHub Repo</a>
+                            <a href={featuredProject.rLink} target="_blank" rel="noopener noreferrer" className="fpLink">GitHub Repo</a>
                         </div>
                         <div id="description">
                             <p>{featuredProject.description}</p>
