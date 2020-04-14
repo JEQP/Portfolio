@@ -11,3 +11,20 @@ body {
   .row {
       justify-content: center;
   }
+
+  #featuredCard {
+    display: inline-block;
+    ;
+    margin: 5px;
+    background: rgb(255, 255, 255, 0.2);
+    padding: 15px;
+  }
+
+ .fpLink {
+      color: midnightblue;
+  }
+
+  .bioBlock {
+    background: rgb(255, 255, 255, 0.2);
+    padding: 15px;
+  }

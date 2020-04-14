@@ -1,10 +1,7 @@
 .zoom {
-    /* padding: 50px;
-    background-color: green; */
+   
     transition: transform .2s; /* Animation */
-    /* width: 200px;
-    height: 200px;
-    margin: 0 auto; */
+
   }
 
   .zoom:hover {
@@ -13,9 +10,6 @@
 
   .thumb {
     display: inline-flex;
-    /* border: solid;
-    border-color: blue;
-    border-width: 3px; */
     margin: 5px;
     background: rgb(255, 255, 255, 0.2);
     padding: 15px;

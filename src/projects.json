@@ -16,20 +16,20 @@
         "rLink": "https://github.com/JEQP/mixer-upper"
     },
     {
+        "urlSquare": "/employeedirectorysquare.jpg",
+        "urlCard": "/employeedirectory350x200.jpg",
+        "title": "Employee Directory",
+        "description": "This React-based app demonstrates an employee directory that can be searched and sorted. The directory is filled via an API call to Random User Generator and includes photo, title, name, gender, age, e-mail and mobile phone number. Entering text into the search box will dynamically search all fields and filter those who match the entered text. The directory can be sorted by name or by age, as indicated by the change in cursor.",
+        "dLink": "https://jeqp.github.io/employee-directory/",
+        "rLink": "https://github.com/JEQP/react-employee-directory"
+    },
+    {
         "urlSquare": "/weathereyesquare.jpg",
         "urlCard": "/weathereye350x200.jpg",
         "title": "The Weather Eye",
         "description": "A weather app that detects the users location and displays local weather, browser permitting. The user can search for cities, with the searches saved in a list, and delete items from the list. Current weather displays location, date, temperature, humidity, windspeed, and UV Index, with the last one colour-coded for severity. The weather forecast is shown as an icon, and a five day forecast appears below. <br> The app uses jQuery and Bootstrap, and obtains the weather from the Open Weather Map API.",
         "dLink": "https://jeqp.github.io/the-weather-eye/",
         "rLink": "https://github.com/JEQP/the-weather-eye"
-    },
-    {
-        "urlSquare": "/workschedsquare.jpg",
-        "urlCard": "/worksched350x200.jpg",
-        "title": "Work Day Schedular",
-        "description": "This web based app displays segments representing the work day, and allows users to enter and store activites for each hour. The current hour is coloured red, while hours that have passed are gray and hours in the future are green. The time blocks automatically change colour based on the current time. The current date is displayed at the top of the page. The drop down menu allows the user to select any date and display the schedule for that date, including entering, storing, and retrieving activities. It runs on jQuery and Bootstrap.",
-        "dLink": "https://jeqp.github.io/day-planner/",
-        "rLink": "https://github.com/JEQP/day-planner"
     },
     {
         "urlSquare": "/opmsquare.jpg",
@@ -40,12 +40,12 @@
         "rLink": "https://github.com/SiJBC/project2"
     },
     {
-        "urlSquare": "/burgersquare.jpg",
-        "urlCard": "/burger350x200.jpg",
-        "title": "Eat da Burger",
-        "description": "`Allows people to create hamburgers and then devour them cybernetically. The program uses an MVC architecture (model, view, controller), and utilises jQuery, Bootstrap, Handlebars, Express,and MySQL.",
-        "dLink": "https://quiet-eyrie-21871.herokuapp.com/",
-        "rLink": "https://github.com/JEQP/burger"
+        "urlSquare": "/workoutsquare.jpg",
+        "urlCard": "/workout350x200.jpg",
+        "title": "Workout Tracker",
+        "description": "A web app for people to track their workouts. Data is stored in a Mongo database using a Mongoose schema, and the API and HTML routes are handled using Express.",
+        "dLink": "http://agile-thicket-87690.herokuapp.com/",
+        "rLink": "https://github.com/JEQP/workout-tracker"
     },
     {
         "urlSquare": "/employeetrackersquare.jpg",

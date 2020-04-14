@@ -11,7 +11,7 @@ function Portfolio() {
         "urlSquare": "",
         "urlCard": "",
         "title": "Portfolio",
-        "description": "A portfolio showcasing some of the content I have created. Styled with Bootstrap and using Trade Wind font from Google Fonts. An external Javascript file is used to change the showcased content based on the users' clicks.",
+        "description": "A portfolio showcasing some of the content I have created. Written with React and styled with Bootstrap, using Trade Wind font from Google Fonts. React routing is used to display either portfolio, contact or about. Google forms is used for contacts.",
         "dLink": "https://jeqp.github.io/portfolio/portfolio.html",
         "rLink": "https://github.com/JEQP/portfolio"
     });
@@ -47,6 +47,7 @@ function Portfolio() {
                 <div className="row">
                     {/*left column */}
                     <div className="col-md-4">
+                        
                         {
                             projectList.map((item, index) => (
                                 (index > 0 && index < 4) &&
@@ -62,6 +63,7 @@ function Portfolio() {
                                 />
                             ))
                         }
+                        
 
                     </div>
 
@@ -70,20 +72,22 @@ function Portfolio() {
                         {/* < div className="container" id="showcased"> */}
                         <div id="imageChosen">
                             <img src={featuredProject.urlSquare}
-                                className="rounded float-left zoom img-fluid" alt="At first but then"></img>
+                                className="rounded float-left zoom img-fluid" alt=""></img>
                         </div>
+                        <div id="featuredCard">
                         <div id="title">
                             <h2>{featuredProject.title}</h2>
                         </div>
                         <div id="dLink">
-                            <a href={featuredProject.dLink} target="_blank">Deployed
+                            <a href={featuredProject.dLink} target="_blank" className="fpLink">Deployed
                         Link</a>
                         </div>
                         <div id="ghRepo">
-                            <a href={featuredProject.rLink} target="_blank">GitHub Repo</a>
+                            <a href={featuredProject.rLink} target="_blank" className="fpLink">GitHub Repo</a>
                         </div>
                         <div id="description">
                             <p>{featuredProject.description}</p>
+                        </div>
                         </div>
 
                     </div>
