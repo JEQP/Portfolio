@@ -1,7 +1,6 @@
-body {
-    background-image: URL("/background.jpg");
-  
-  }
+html, body {
+  height: 100%;
+}
 
   .contactForm {
       text-align: center;
@@ -27,4 +26,13 @@ body {
   .bioBlock {
     background: rgb(255, 255, 255, 0.2);
     padding: 15px;
+  }
+
+  .aboutDiv {
+    height: 100%;
+  
+  }
+
+  .spacer {
+    height: 150px;
   }

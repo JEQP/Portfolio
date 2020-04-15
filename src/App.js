@@ -9,23 +9,23 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <HashRouter basename="/">
-    <div>
-      <Switch>
-          <Route exact path={["/", "/Portfolio"]} component={Portfolio}>
-            {/* <Portfolio /> */}
+      <div class="aboutDiv">
+        <Switch>
+          <Route exact path="/about" >
+            <About />
           </Route>
-          <Route exact path="/about" component={About}>
-            {/* <About /> */}
-          </Route>
-          <Route exact path="/contact" component={Contact}>
+          <Route exact path="/contact" >
             <Contact />
           </Route>
-          <Route>
-            {/* <Portfolio /> */}
+          <Route exact path="/Portfolio">
+            <Portfolio />
           </Route>
         </Switch>
-     
-    </div>
+        <Route exact path={"/"} >
+          <Portfolio />
+        </Route>
+
+      </div>
     </HashRouter>
   );
 }

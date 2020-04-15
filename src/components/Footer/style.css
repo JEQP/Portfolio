@@ -1,0 +1,21 @@
+.row {
+    justify-content: center;
+}
+
+.em {
+    font-style: italic;
+}
+
+a {
+    color: black;
+}
+
+.footer {
+    margin-top: auto;
+    /* text-align: center; */
+    padding-top: 25px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+  
+}

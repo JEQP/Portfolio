@@ -1,9 +1,14 @@
 import React, { useState } from 'react';
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import projects from "../projects.json";
 import Project from "../components/Project";
+import Background from "../images/background.jpg";
 import "./style.css";
 
+var sectionStyle = {
+    backgroundImage: `url(${Background})`
+  };
 
 function Portfolio() {
     const [projectList, setProjectList] = useState(projects);
@@ -31,7 +36,8 @@ function Portfolio() {
 
     // render() {
     return (
-        <div className="container px-xs-0 px-md-0">
+        <div style={sectionStyle}>
+        <div className="container px-xs-0 px-md-0" >
             <Header />
 
             {/* container of content */}
@@ -71,7 +77,7 @@ function Portfolio() {
                     <div className="col-md-4">
                         {/* < div className="container" id="showcased"> */}
                         <div id="imageChosen">
-                            <img src={featuredProject.urlSquare}
+                           <img src={process.env.PUBLIC_URL + featuredProject.urlSquare}
                                 className="rounded float-left zoom img-fluid" alt=""></img>
                         </div>
                         <div id="featuredCard">
@@ -115,8 +121,10 @@ function Portfolio() {
 
             </div>
         </div>
+        <Footer />
+        </div>
     )
-    // }
+
 }
 
 export default Portfolio;

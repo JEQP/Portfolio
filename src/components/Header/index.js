@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 import "./style.css";
 
 
@@ -34,13 +35,13 @@ class Header extends Component {
                         <div className="navbar-nav ml-auto">
                             <ul className="navbar-nav ml-auto">
                                 <li className="nav-item">
-                                    <a className="nav-link active" href="./about">About</a>
+                                    <Link className="nav-link active" to="/about">About</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link active" href="./portfolio" alt="Portfolio">Portfolio</a>
+                                    <Link className="nav-link active" to="/portfolio" alt="Portfolio">Portfolio</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link active" href="./contact">Contact</a>
+                                    <Link className="nav-link active" to="/contact">Contact</Link>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link active" href="https://www.linkedin.com/in/james-quintana-pearce/" alt="link to LinkedIn profile">LinkedIn</a>
