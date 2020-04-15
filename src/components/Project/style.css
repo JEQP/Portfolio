@@ -10,9 +10,11 @@
 
   .thumb {
     display: inline-flex;
+    width: auto;
     margin: 5px;
     background: rgb(255, 255, 255, 0.2);
     padding: 15px;
+    
     
   }
   img {
