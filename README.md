@@ -4,7 +4,7 @@ A portfolio featuring six of my projects, two group and four sinngle. Clicking o
 
 Deployed Link: [https://jeqp.github.io/portfolio/#/](https://jeqp.github.io/portfolio/#/)
 
-
+![Portfolio](https://github.com/JEQP/portfolio/blob/master/screencap.jpg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
