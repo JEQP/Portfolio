@@ -24,7 +24,7 @@ class Header extends Component {
             <div className="container  px-md-0 px-xs-0">
 
                 <nav className="navbar navbar-expand-lg navbar-light">
-                    <a className="navbar-brand" href="./about">
+                    <a className="navbar-brand" href="/about">
                         <h1 id="name-cover">&nbsp;James Q. Pearce&nbsp;</h1>
                     </a>
 
