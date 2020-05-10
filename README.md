@@ -1,6 +1,6 @@
 #Portfolio In React
 
-A portfolio featuring six of my projects, two group and four sinngle. Clicking on the displayed cards changes the featured project, allowing people to see details of each. The Navbar includes links to an About page, a Contact page using Google Forms, LinkedIn and Resume. These pages are delivered with React Router. The app uses hooks when rendering child components.
+A portfolio featuring six of my projects, two group and four single. Clicking on the displayed cards changes the featured project, allowing people to see details of each. The Navbar includes links to an About page, a Contact page using Google Forms, LinkedIn and Resume. These pages are delivered with React Router. The app uses hooks when rendering child components.
 
 Deployed Link: [https://jeqp.github.io/portfolio/#/](https://jeqp.github.io/portfolio/#/)
 
