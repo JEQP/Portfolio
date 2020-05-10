@@ -29,23 +29,28 @@ function About() {
                         </div>
 
                         <div className="col-sm-8 bioBlock">
-
-
                             <p>
-                                Long have I been impressed at the ability of words to illuminate realities in the minds of
-                                those who hear them. It was this which inspired me to earn a Masters of Journalism after I graduated
-                                my Bachelor of Biotechnology. Eager to share the lessons of science in a narrative
-                                comprehensible to the general public, I spent several years in my career as a technology journalist.
-                        </p>
+                                Full-stack MERN developer with a background in journalism keen to create accessible content.
+                                Recently earned a certificate in Full Stack Development from The Coding Bootcamp at the
+                                University of Sydney, covering Javascript, jQuery, Bootstrap, AJAX, Node.js, Mongo and React.
+                                Known for an obsessive attention to detail and creative problem solving, with a strong interest
+                                in crafting the best UX. Created an interplayer-puzzle game allowing user-generated content, and attempting puzzles created by other players.
+                                Collaborated via Slack and Github with a team of three to generate a
+                                web service allowing users to discover and create cocktails, each working independently.
+                                My aim is to create frictionless experiences for the user so they can actively engage with
+                                services that benefit them. Excited to join a creative team to solve problems before people
+                                realise they have them.
+                            </p>
+
                             <p>
                                 Living in Mexico, I took time off work to raise my three children to be the intelligent,
                                 compassionate, friendly and motivated people they show every sign of becoming. At the same
                                 time I started a bio-ethical student housing project with my wife.
-                        </p>
+                            </p>
                             <p><br></br>
                             Returning to Australia, my attention turned to an area where words have the most direct and
                             predictable effect on the the world illuminated: Web development. I aim to use my coding
-                            skills to share knowledge and services in a simple, appealing and engaging manner.
+                            skills to share knowledge and services in a simple, appealing and engaging manner. When not coding I enjoy helping the local Scout Group, soccer, creative writing, gardening, and gaming.
                         </p>
 
 

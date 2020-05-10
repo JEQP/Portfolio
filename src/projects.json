@@ -3,7 +3,7 @@
         "urlSquare": "",
         "urlCard": "",
         "title": "Portfolio",
-        "description": "A portfolio showcasing some of the content I have created. Styled with Bootstrap and using Trade Wind font from Google Fonts. An external Javascript file is used to change the showcased content based on the users' clicks.",
+        "description": "A portfolio showcasing some of the content I have created, written with React and styled with Bootstrap, using Trade Wind font from Google Fonts. React routing is used to display either portfolio, contact or about. Google forms is used for contacts.",
         "dLink": "https://jeqp.github.io/portfolio/portfolio.html",
         "rLink": "https://github.com/JEQP/portfolio"
     },
@@ -11,7 +11,7 @@
         "urlSquare": "/dungeondashsquare.jpg",
         "urlCard": "/dungeondash350x200.jpg",
         "title": "Dungeon Dash",
-        "description": "An inter-player puzzle game where players create, save, share, and attempt to solve puzzles. Written in the MERN stack, with the game logic created in React and the puzzle and user data in MongoDB.",
+        "description": "An inter-player puzzle game where players create, save, share, and attempt to solve puzzles. Written in the MERN stack, with the game logic created in React and the puzzle and user data saved in MongoDB using Mongoose. User authentication is conducted using Passport and JWT.",
         "dLink": "https://dungeon-dash-au.herokuapp.com/",
         "rLink": "https://github.com/JEQP/Dungeon-Dash"
     },
@@ -27,7 +27,7 @@
         "urlSquare": "/weathereyesquare.jpg",
         "urlCard": "/weathereye350x200.jpg",
         "title": "The Weather Eye",
-        "description": "A weather app that detects the users location and displays local weather, browser permitting. The user can search for cities, with the searches saved in a list, and delete items from the list. Current weather displays location, date, temperature, humidity, windspeed, and UV Index, with the last one colour-coded for severity. The weather forecast is shown as an icon, and a five day forecast appears below. <br> The app uses jQuery and Bootstrap, and obtains the weather from the Open Weather Map API.",
+        "description": "A weather app that detects the user's location and displays local weather, browser permitting. The user can search for cities, with the searches saved in a list, and delete items from the list. Current weather displays location, date, temperature, humidity, windspeed, and UV Index, with the last one colour-coded for severity. The weather forecast is shown as an icon, and a five day forecast appears below. The app uses jQuery and Bootstrap, and obtains the weather from the Open Weather Map API.",
         "dLink": "https://jeqp.github.io/the-weather-eye/",
         "rLink": "https://github.com/JEQP/the-weather-eye"
     },
@@ -35,7 +35,7 @@
         "urlSquare": "/opmsquare.jpg",
         "urlCard": "/opm350x200.jpg",
         "title": "One Page Man",
-        "description": "A full stack application that lets users easily create a customised website. They can choose a theme, upload four images and create three sub-sections with title and text. The iamges are saved on third-party site Cloudinary, and the information is stored in a MySQL database. Layout uses Materialize, and the site uses Sequelize, Express, Handlebars and jQuery.",
+        "description": "A full stack application that lets users easily create a customised website. They can choose a theme, upload four images and create three sub-sections with title and text. The images are saved on third-party site Cloudinary, and the information is stored in a MySQL database. Layout uses Materialize, and the site uses Sequelize, Express, Handlebars and jQuery.",
         "dLink": "https://thawing-inlet-42364.herokuapp.com/",
         "rLink": "https://github.com/SiJBC/project2"
     },
