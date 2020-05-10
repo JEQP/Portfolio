@@ -8,20 +8,20 @@
         "rLink": "https://github.com/JEQP/portfolio"
     },
     {
+        "urlSquare": "/dungeondashsquare.jpg",
+        "urlCard": "/dungeondash350x200.jpg",
+        "title": "Dungeon Dash",
+        "description": "An inter-player puzzle game where players create, save, share, and attempt to solve puzzles. Written in the MERN stack, with the game logic created in React and the puzzle and user data in MongoDB.",
+        "dLink": "https://dungeon-dash-au.herokuapp.com/",
+        "rLink": "https://github.com/JEQP/Dungeon-Dash"
+    },
+    {
         "urlSquare": "/mixeruppersquare.jpg",
         "urlCard": "/mixerupper350x200.jpg",
         "title": "Mixer Upper",
         "description": "A dynamic webpage allowing users to search for cocktails and receive an image, ingredients list and instructions. Constructed in a team with Takuji Okubo and Tonnette Stanford. It uses Materialize, jQuery, and the Montserrat font from Google Fonts. The details for the cocktails are drawn from The Cocktail Database. My main responsibilities were to construct the API calls and link them via Javascript with the HTML elements.",
         "dLink": "https://jeqp.github.io/mixer-upper/index.html",
         "rLink": "https://github.com/JEQP/mixer-upper"
-    },
-    {
-        "urlSquare": "/employeedirectorysquare.jpg",
-        "urlCard": "/employeedirectory350x200.jpg",
-        "title": "Employee Directory",
-        "description": "This React-based app demonstrates an employee directory that can be searched and sorted. The directory is filled via an API call to Random User Generator and includes photo, title, name, gender, age, e-mail and mobile phone number. Entering text into the search box will dynamically search all fields and filter those who match the entered text. The directory can be sorted by name or by age, as indicated by the change in cursor.",
-        "dLink": "https://jeqp.github.io/employee-directory/",
-        "rLink": "https://github.com/JEQP/react-employee-directory"
     },
     {
         "urlSquare": "/weathereyesquare.jpg",
