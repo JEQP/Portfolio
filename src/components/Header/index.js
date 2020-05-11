@@ -24,7 +24,7 @@ class Header extends Component {
             <div className="container  px-md-0 px-xs-0">
 
                 <nav className="navbar navbar-expand-lg navbar-light">
-                    <a className="navbar-brand" href="/about">
+                    <a className="navbar-brand" href="https://jeqp.github.io/portfolio/#/about">
                         <h1 id="name-cover">&nbsp;James Q. Pearce&nbsp;</h1>
                     </a>
 
@@ -48,6 +48,9 @@ class Header extends Component {
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link active" href="https://docs.google.com/document/d/1otbC0ndndTepoBLxiAFdl7b3SY5uEoImKWtZbEN6aOk/edit?usp=sharing" alt="link to resume">Resume</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link active" href="https://github.com/JEQP" alt="link to gitHub">Github</a>
                                 </li>
                             </ul>
                         </div>
